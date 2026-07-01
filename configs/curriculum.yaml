@@ -1,0 +1,18 @@
+# Optional curriculum — ramp difficulty as the agent improves.
+# Used by train.py via env wrappers when enabled.
+
+enabled: true
+
+stages:
+  - until_step: 300_000
+    total_min: 30
+    total_max: 50
+    size_scale: 0.8       # smaller boxes early — easier to fit
+  - until_step: 800_000
+    total_min: 50
+    total_max: 90
+    size_scale: 1.0
+  - until_step: 2_000_000
+    total_min: 80
+    total_max: 130
+    size_scale: 1.0

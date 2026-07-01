@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# Training artifacts
+checkpoints/
+runs/
+logs/
+tensorboard/
+*.zip
+*.onnx
+wandb/
+
+# Traces (keep sample, ignore generated)
+traces/*
+!traces/.gitkeep
+renderer/public/traces/*
+!renderer/public/traces/sample.json
+!renderer/public/traces/.gitkeep
+
+# Node / renderer
+node_modules/
+renderer/dist/
+renderer/.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/animation/timeline.ts","./src/camera/cinematicrig.tsx","./src/hud/metricsoverlay.tsx","./src/scene/boxes.tsx","./src/scene/forklift.tsx","./src/scene/lighting.tsx","./src/scene/truck.tsx","./src/scene/warehouse.tsx","./src/scene/constants.ts","./src/trace/loader.ts","./src/trace/schema.ts"],"version":"5.9.3"}
